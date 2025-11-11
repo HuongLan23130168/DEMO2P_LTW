@@ -1,0 +1,6 @@
+/* ================== MAIN CONTENT ================== */
+.main-content {
+    margin-left: 220px;
+    padding: 100px 40px 40px;
+    transition: margin-left 0.3s ease;
+}
