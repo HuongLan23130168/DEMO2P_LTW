@@ -29,7 +29,7 @@ input.editing {
 .account-container {
     display: flex;
     min-height: 100vh;
-    background: #f9f6f1;
+    background: #F8F4E1;
 }
 
 .tab-content {
@@ -94,7 +94,7 @@ input.editing {
 }
 
 .logout-btn {
-    background: transparent;
+    background: #FEFAEF;
     border: 1.3px transparent solid;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     color: #74512D;
@@ -123,11 +123,12 @@ input.editing {
 .account-details {
     flex: 1;
     padding: 50px;
-    background: #F8F4E1;
+    background: #fff;
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
     width: fit-content;
+    height: fit-content;
 }
 
 /* Info card */
@@ -160,10 +161,9 @@ main h4 {
 
 
 .address-box {
-    background: #FEFCF2;
+    background: #fff;
     border-radius: 10px;
     padding: 15px 20px;
-
     margin: 15px 0;
 }
 
@@ -179,7 +179,7 @@ main h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: #FEFAEF;
     padding: 12px;
     border-radius: 8px;
     border: 1px solid #d8b99c;
@@ -222,7 +222,7 @@ main h4 {
 }
 
 .add-btn {
-    background: transparent;
+    background: #FEFAEF;
     border: 1.3px #74512D solid;
     color: #74512D;
     padding: 10px 20px;
@@ -306,7 +306,7 @@ main h4 {
 
 
 .account-details {
-    background: #FEFAEF !important;
+    background: #fff !important;
     padding: 40px 45px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -314,13 +314,14 @@ main h4 {
 }
 
 .sidebar {
-    background: #FEFAEF;
+    background: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    height: 580px;
 }
 
 .info-box {
-    background: #fff;
+    background: #FEFAEF;
     border: 1px solid #EEE2D0;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
 }

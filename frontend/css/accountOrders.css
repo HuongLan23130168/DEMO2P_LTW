@@ -1,7 +1,7 @@
 .order-container {
     max-width: 100%;
     margin: auto;
-    background: #fff;
+    background: #FEFAEF;
     padding: 20px;
     color: #6F4E37;
     font-size: 12px;
@@ -13,7 +13,7 @@
 .order-tabs {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
-    background: white;
+    background: #FEFAEF;
     gap: 8px;
     margin-bottom: 20px;
     border: 2px solid white;
@@ -31,14 +31,14 @@
     cursor: pointer;
     color: #6F4E37;
     font-size: 14px;
-    background: white;
+    /* background: white; */
     transition: 0.2s;
     flex: 1;
     text-align: center;
 }
 
 .order-tab:hover {
-    background: white;
+    color: #ECB176;
 }
 
 
@@ -50,7 +50,7 @@
 
 /* Order Card */
 .order-card {
-    background: #FEFCF2;
+    background: #fff;
     border: 1px solid #dddddd;
     border-radius: 10px;
     padding: 15px;
