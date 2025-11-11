@@ -206,25 +206,49 @@ body {
 .add-cart {
   background: white;
   border: 2px solid #6f4e37;
+  border-radius: 12px;
+  padding: 15px;
   color: #6f4e37;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
+.add-cart a {
+  color: #6f4e37;
+  font-weight: 600;
 }
 
 .add-cart:hover {
   background: #6f4e37;
-  color: white;
+  color: #fff;
 }
 
 /* Buy now */
 .buy-now {
   background: #6f4e37;
   color: white;
-  border: none;
+  /* border: none; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .buy-now:hover {
   background: #c49263;
 }
+
+
+.buy-now a {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 /* ========== SECTION 2: DESCRIPTION ========== */
 .detail-section {
