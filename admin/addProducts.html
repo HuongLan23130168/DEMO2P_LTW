@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noble Loft Theory - Add Products</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/addProducts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- === SIDEBAR === -->
+    <div class="sidebar" id="sidebar">
+        <div class="logo">
+            <a href="dashboard.html">Noble Loft Theory</a>
+        </div>
+        <ul>
+            <li>
+                <a href="dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a>
+            </li>
+            <li class="active">
+                <a href="products.html"><i class="fas fa-box"></i> Sản phẩm</a>
+            </li>
+            <li>
+                <a href="orders.html"><i class="fas fa-cart-shopping"></i> Đơn hàng</a>
+            </li>
+            <li>
+                <a href="customers.html"><i class="fas fa-users"></i> Khách hàng</a>
+            </li>
+            <li>
+                <a href="notifi.html"><i class="fas fa-bell"></i> Thông báo</a>
+            </li>
+            <li>
+                <a href="account.html"><i class="fas fa-gear"></i> Tài khoản</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- === HEADER === -->
+    <header class="header">
+        <div class="header-left">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass" style="color: #74512d;"></i>
+                <input type="text" placeholder="Tìm kiếm" class="search-input" />
+            </div>
+        </div>
+
+        <div class="header-right">
+            <!-- Nút thông báo -->
+            <button id="btnNotify" class="icon-button"><i class="fa-solid fa-bell"></i></button>
+
+            <!-- Hồ sơ người dùng -->
+            <div class="profile-dropdown">
+                <button class="icon-button user-btn">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+
+                <div class="dropdown-menu">
+                    <a href="account.html"><i class="fas fa-user"></i> Tài khoản</a>
+                    <a href="index.html"><i class="fas fa-right-from-bracket"></i> Đăng xuất</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- === ADD PRODUCTS === -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
